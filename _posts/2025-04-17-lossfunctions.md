@@ -3,7 +3,7 @@ Probably the hardest concept for me to wrap my head around in this project was w
 
 In simple dot point terms, for classifiers:
 
--Predictions are values that take outputs from the neural net and with an activation function. For binary classifiers this is the sigmoid(), for multiclass this is the softmax().
--The loss function is a function that takes predictions from the neural net and scales them to create a value for the loss of a prediction.
-  -Often times the loss function is created to minimise the scaling factor near when predictions are accurate (Loss=0 when Pred=1) and largely scale inccorect predictions such as the -log(y) loss function
--Loss is then used in the next batch in training to adjust weightings using gradient descent.
+- Predictions are values that take outputs from the neural net and with an activation function. For binary classifiers this is the sigmoid(), for multiclass this is the softmax()
+- The loss function is a function that takes predictions from the neural net and scales them to create a value for the loss of a prediction
+  - Often times the loss function is created to minimise the scaling factor near when predictions are accurate (Loss=0 when Pred=1) and largely scale inccorect predictions such as the -log(y) loss function
+- Loss is then used in the next batch in training to adjust weightings using gradient descent
