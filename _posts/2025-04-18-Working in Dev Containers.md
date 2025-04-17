@@ -8,5 +8,18 @@ One of the assignment tasks was to compare the speedup the GPU has over the CPU 
 
 Some of the results from the training are shown below, with the training metrics output presented in a markdown table and some images of the GPU activity graphs.
 
-![](/images/logo.png "fast.ai's logo")
+Results from training:
 
+| epoch | train_loss | valid_loss | error_rate | time |
+|-------|------------|------------|------------|------|
+| 0     | 0.736912   | 0.402907   | 0.106977   | 00:02 |
+
+| epoch | train_loss | valid_loss | error_rate | time |
+|-------|------------|------------|------------|------|
+| 0     | 0.318343   | 0.289572   | 0.120930   | 00:02 |
+| 1     | 0.195320   | 0.300568   | 0.102326   | 00:02 |
+| 2     | 0.133876   | 0.296840   | 0.097674   | 00:02 |
+
+GPU activity from training with a default batch size of bs=64
+
+![](/images/default_batch_size.png)
