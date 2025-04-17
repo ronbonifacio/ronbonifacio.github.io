@@ -1,5 +1,5 @@
 # Working In Dev Containers
-This is my first post on my AI blog!
+This is my first post on my AI blog! :D
 
 Whilst this was a task that I had completed a while ago in my tutorial class, I've only ended up documenting on it on this blog now not long before the assignment is about to be due. Even though it may have been nicer to start documenting my journey earlier it is nonetheless good to write about what I have learnt.
 
